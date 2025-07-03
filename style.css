@@ -107,6 +107,7 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
 .about-me__info {
     display: flex;
     flex-direction: column; 
@@ -147,7 +148,7 @@ nav {
 
 .about-me__info--para {
     font-size: 20px;
-    margin-botton: 28px;
+    margin-bottom: 28px;
 }
 
 .about-me__link {
@@ -182,10 +183,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+}
+
 
 .language__list {
     display: flex;
     width: 100%;
-
 }
