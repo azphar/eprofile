@@ -313,6 +313,15 @@ footer {
     background-color: #242424;
 }
 
+
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
 .footer__row {
     display: flex;
     flex-direction: column;
@@ -327,6 +336,23 @@ footer {
 }
 
 .footer__social--link,
-.footer__copyright {
+.footer__copyright,
+.footer__logo--popper {
     color: #fff;
+}
+
+.footer__logo--popper {
+    position: absolute;
+    right: 0;
+    top: 30px; 
+    font-weight: 700;
+}
+
+.footer__anchor {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer__anchor:hover .footer__logo--popper {
+    transform: translateX(60px);
 }
