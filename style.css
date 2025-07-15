@@ -392,19 +392,18 @@ footer {
 }
 
 
-/*  phones, tablets, large smartphones */
-@media (max-width: 768px) 
-    nav {
+/*  Small phones, tablets, large smartphones */
+@media (max-width: 768px) {
+nav {
         height: 68px; 
     }
 
     h1 {
         font-size: 28 px;
     }
-
-.about-me__info--para {
-    font-size: 18px;
-}
+    .about-me__info--para {
+        font-size: 18px;
+    }
 
 .language {
     width: calc(100% / 3);
@@ -412,29 +411,5 @@ footer {
 
 .project__description--para {
     font-size: 14px;
-}
-
-.project__description--para {
-    left: 30px; 
-    padding-right: 30px;
-}
-
-/* Small phones */
-@media (max-width: 480px) {
-    .nav__link:not(:last-child) {
-        display: none; 
-    }
-
-    .project__description--para {
-        display: none;
-    }
-
-.project__description--links {
-    display: flex; 
-    justify-content: center;
-}
-
-.project__description--sub-title {
-    text-align: center;
 }
 }
