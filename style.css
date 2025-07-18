@@ -238,7 +238,7 @@ nav {
    animation: fade-in 1200ms 800ms backwards;
 }
 
-@keyframes fade-in{
+@keyframes fade-in {
     0% {
         opacity: 0;
     }
